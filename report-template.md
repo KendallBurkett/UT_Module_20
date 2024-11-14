@@ -1,27 +1,34 @@
-# Module 12 Report Template
+# Module 20 README
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The purpose of this analysis is to classify loan applications as either “healthy” (low risk) or “high risk” using a logistic regression model. The dataset includes financial information about borrowers, such as loan size, interest rate, and borrower income. The objective is to predict the likelihood of a loan being high-risk based on these factors.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+Key aspects of the dataset:
+	•	Target Variable: loan_status (0 = healthy loan, 1 = high-risk loan)
+	•	Data Summary: The dataset is imbalanced, with most loans categorized as “healthy.”
+
+Machine learning process stages:
+	1.	Data Loading and Preprocessing: Loaded and cleaned data, separated labels and features.
+	2.	Data Splitting: Used train_test_split to divide the dataset into training and testing sets.
+	3.	Model Training: Trained a LogisticRegression model on the training data.
+	4.	Model Evaluation: Used a confusion matrix and classification report to assess accuracy, precision, and recall.
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+	•	Logistic Regression Model:
+	•	Accuracy: 99%
+	•	Class 0 (Healthy Loan):
+	•	Precision: 1.00
+	•	Recall: 0.99
+	•	F1-score: 1.00
+	•	Class 1 (High-Risk Loan):
+	•	Precision: 0.86
+	•	Recall: 0.94
+	•	F1-score: 0.90
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+The logistic regression model performs exceptionally well, with an overall accuracy of 99%. It predicts healthy loans with near-perfect precision and recall, while also achieving high recall (0.94) for high-risk loans. Given the class imbalance, the model still accurately identifies high-risk loans, which may be crucial for reducing financial risk.
 
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+The logistic regression model is recommended due to its strong performance in identifying both healthy and high-risk loans. In cases where accurate identification of high-risk loans is prioritized, the model’s high recall for 1 makes it suitable for credit risk classification.
