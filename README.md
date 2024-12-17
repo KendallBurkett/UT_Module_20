@@ -71,31 +71,31 @@ The analysis is implemented in **Jupyter Notebook** and uses **pandas**, **sciki
 ## Results
 
 ### Key Observations:
-* The logistic regression model provides baseline performance for credit risk classification.
-* Advanced models, such as Random Forest and SMOTE techniques, improve classification accuracy, especially in imbalanced datasets.
+   - The logistic regression model provides baseline performance for credit risk classification.
+   - Advanced models, such as Random Forest and SMOTE techniques, improve classification accuracy, especially in imbalanced datasets.
 
 Model Evaluation:
-* Accuracy, Precision, Recall, and F1-Score are used to compare model performance.
+   - Accuracy, Precision, Recall, and F1-Score are used to compare model performance.
 
-	•	Logistic Regression Model:
+	   •	Logistic Regression Model:
 
-	•	Accuracy: 99%
+	   •	Accuracy: 99%
 
-	•	Class 0 (Healthy Loan):
+	   •	Class 0 (Healthy Loan):
 
-	•	Precision: 1.00
+	   •	Precision: 1.00
 
-	•	Recall: 0.99
+	   •	Recall: 0.99
 
-	•	F1-score: 1.00
+	   •	F1-score: 1.00
 
-	•	Class 1 (High-Risk Loan):
+	   •	Class 1 (High-Risk Loan):
 
-	•	Precision: 0.86
+	   •	Precision: 0.86
 
-	•	Recall: 0.94
+	   •	Recall: 0.94
 
-	•	F1-score: 0.90
+	   •	F1-score: 0.90
 
 ---
 
@@ -104,8 +104,8 @@ Model Evaluation:
 The purpose of this analysis is to classify loan applications as either “healthy” (low risk) or “high risk” using a logistic regression model. The dataset includes financial information about borrowers, such as loan size, interest rate, and borrower income. The objective is to predict the likelihood of a loan being high-risk based on these factors.
 
 Key aspects of the dataset:
-* Target Variable: loan_status (0 = healthy loan, 1 = high-risk loan)
-* Data Summary: The dataset is imbalanced, with most loans categorized as “healthy.”
+   - Target Variable: loan_status (0 = healthy loan, 1 = high-risk loan)
+   - Data Summary: The dataset is imbalanced, with most loans categorized as “healthy.”
 
 Machine learning process stages:
 1.	Data Loading and Preprocessing: Loaded and cleaned data, separated labels and features.
