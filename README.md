@@ -78,14 +78,23 @@ Model Evaluation:
 * Accuracy, Precision, Recall, and F1-Score are used to compare model performance.
 
 	•	Logistic Regression Model:
+
 	•	Accuracy: 99%
+
 	•	Class 0 (Healthy Loan):
+
 	•	Precision: 1.00
+
 	•	Recall: 0.99
+
 	•	F1-score: 1.00
+
 	•	Class 1 (High-Risk Loan):
+
 	•	Precision: 0.86
+
 	•	Recall: 0.94
+	
 	•	F1-score: 0.90
 
 ---
