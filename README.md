@@ -1,6 +1,5 @@
 ## Supervised Learning
 ---
-
 # Credit Risk Classification
 
 ## Table of Contents
