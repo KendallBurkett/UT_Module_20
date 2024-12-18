@@ -11,7 +11,6 @@
 - [Results](#results)
 - [Overview of the Analysis](#overview-of-the-analysis)
 - [Summary](#summary)
-- [Author](#author)
 
 ---
 
@@ -121,10 +120,3 @@ The logistic regression model performs exceptionally well, with an overall accur
 The logistic regression model is recommended due to its strong performance in identifying both healthy and high-risk loans. In cases where accurate identification of high-risk loans is prioritized, the model’s high recall for 1 makes it suitable for credit risk classification.
 
 ---
-
-## Author
-
-**Kendall Burkett**  
-https://github.com/KendallBurkett?tab=repositories
- 
-kbz1987@icloud.com
